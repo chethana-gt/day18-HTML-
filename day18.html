@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Workspace</title>
+    <meta name="description" content="Complete HTML practice workspace covering 100 tasks from basics to advanced.">
+    <meta name="keywords" content="HTML, practice, forms, tables, multimedia, semantic tags">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+</head>
+
+<body>
+
+<header>
+    <h1>Hello World</h1>
+    <nav>
+        <ul>
+            <li><a href="#resume" title="Go to Resume">Resume</a></li>
+            <li><a href="#survey">Survey</a></li>
+            <li><a href="#article">Article</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- Headings -->
+<h1>Main Heading</h1>
+<h2>Sub Heading</h2>
+<h3>Section Heading</h3>
+<h4>Smaller Heading</h4>
+<h5>Tiny Heading</h5>
+<h6>Smallest Heading</h6>
+
+<p>My favorite hobby is <b>coding</b> because it is <i>creative</i> and logical.</p>
+<p>I enjoy <strong>learning new technologies</strong> and <em>building projects</em>.</p>
+
+<p>HTML is easy.<br>Practice makes perfect.</p>
+<hr>
+
+<p>I love <mark>innovation</mark> in technology.</p>
+
+<p>Chemical formula: H<sub>2</sub>O</p>
+<p>Math exponent: x<sup>2</sup></p>
+
+<p>This is <del>wrong</del> <ins>correct</ins> text.</p>
+
+<blockquote>
+    "The only way to do great work is to love what you do."
+    <cite>– Steve Jobs</cite>
+</blockquote>
+
+<!-- Lists -->
+<h2>Favorite Foods</h2>
+<ul>
+    <li>Pizza</li>
+    <li>Pasta</li>
+    <li>Ice Cream</li>
+</ul>
+
+<h2>Morning Routine</h2>
+<ol type="I">
+    <li>Wake up</li>
+    <li>Exercise
+        <ul>
+            <li>Stretching</li>
+            <li>Jogging</li>
+        </ul>
+    </li>
+    <li>Breakfast</li>
+</ol>
+
+<ol start="10">
+    <li>Task Ten</li>
+    <li>Task Eleven</li>
+</ol>
+
+<dl>
+    <dt>HTML</dt>
+    <dd>Structure of web pages</dd>
+    <dt>CSS</dt>
+    <dd>Styling language</dd>
+    <dt>JavaScript</dt>
+    <dd>Interactive behavior</dd>
+</dl>
+
+<p><a href="https://www.google.com" target="_blank">Visit Google</a></p>
+<p><a href="#bottom">Go to Bottom</a></p>
+<p><a href="mailto:example@email.com">Send Email</a></p>
+<p><a href="tel:+911234567890">Call Us</a></p>
+<p><a href="sample.pdf" download>Download PDF</a></p>
+
+<a href="https://www.google.com">
+    <img src="https://via.placeholder.com/150" alt="Sample Image" width="150" height="150">
+</a>
+
+<!-- Table -->
+<table border="1">
+    <caption>Sample Table</caption>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Details</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">John</td>
+            <td>Age</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>Delhi</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">End of Table</td>
+        </tr>
+    </tfoot>
+</table>
+
+<!-- Multimedia -->
+<figure>
+    <img src="https://via.placeholder.com/300" alt="Placeholder">
+    <figcaption>Sample Image Caption</figcaption>
+</figure>
+
+<picture>
+    <source media="(max-width:600px)" srcset="https://via.placeholder.com/200">
+    <img src="https://via.placeholder.com/400" alt="Responsive Image">
+</picture>
+
+<iframe width="300" height="200"
+src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+
+<iframe width="300" height="200"
+src="https://www.google.com/maps/embed?pb=!1m18"></iframe>
+
+<audio controls>
+    <source src="sample.mp3" type="audio/mpeg">
+</audio>
+
+<video width="320" height="240" controls poster="https://via.placeholder.com/300">
+    <source src="sample.mp4" type="video/mp4">
+</video>
+
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="blue" />
+</svg>
+
+<!-- Form -->
+<h2>Contact Form</h2>
+<form>
+<fieldset>
+<legend>Personal Info</legend>
+
+<label for="fname">First Name:</label>
+<input type="text" id="fname" placeholder="Enter name" required><br><br>
+
+<label>Password:</label>
+<input type="password"><br><br>
+
+<label>Email:</label>
+<input type="email" required><br><br>
+
+<label>Number (1-10):</label>
+<input type="number" min="1" max="10"><br><br>
+
+<label>Range:</label>
+<input type="range" min="0" max="100"><br><br>
+
+<label>Date:</label>
+<input type="date"><br><br>
+
+<label>Color:</label>
+<input type="color"><br><br>
+
+<label>Upload File:</label>
+<input type="file"><br><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br><br>
+
+<label>Skills:</label>
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+<input type="checkbox"> JS<br><br>
+
+<label>Country:</label>
+<select>
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+</select><br><br>
+
+<label>Comments:</label>
+<textarea rows="4" cols="30"></textarea><br><br>
+
+<input type="hidden" value="hiddenData">
+<input type="text" value="Read only text" readonly>
+<input type="text" value="Disabled field" disabled><br><br>
+
+<label>Search:</label>
+<input type="search" list="languages">
+<datalist id="languages">
+<option value="HTML">
+<option value="CSS">
+<option value="JavaScript">
+</datalist><br><br>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+</fieldset>
+</form>
+
+<!-- Resume Section -->
+<section id="resume">
+<h2>Resume</h2>
+<p><strong>Name:</strong> Your Name</p>
+<p><strong>Skills:</strong></p>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+</section>
+
+<!-- Article -->
+<article id="article">
+<header>
+<h2>Tech News</h2>
+<time datetime="2026-02-18">Feb 18, 2026</time>
+</header>
+<p>Technology is evolving rapidly...</p>
+<footer>Written by Author</footer>
+</article>
+
+<!-- Footer -->
+<footer id="contact">
+<address>
+Contact us at <a href="mailto:test@email.com">test@email.com</a>
+</address>
+<p>&copy; 2026 My Workspace</p>
+</footer>
+
+</main>
+
+<p id="bottom">You reached the bottom of the page.</p>
+
+</body>
+</html>
